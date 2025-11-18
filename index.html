@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rohan Gouda — Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Rohan Gouda — Frontend Developer. Responsive portfolio with animations." />
+</head>
+<body class="theme-dark">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">Rohan Gouda</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="#projects">See Work</a>
+      </nav>
+      <button id="nav-toggle" aria-label="Open menu" class="nav-toggle">☰</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-text">
+          <h1 class="hero-title">Hi — I’m <span class="accent">Rohan</span></h1>
+          <p class="hero-sub"><span id="typed"></span></p>
+          <p class="hero-actions">
+            <a href="#projects" class="btn">View projects</a>
+            <a href="mailto:rohangouda348@gmail.com" class="btn ghost">Contact me</a>
+          </p>
+          <p class="meta">B.Tech Computer Science — Alliance University • Final year (2026)</p>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="card-inner">
+            <img alt="Rohan" src="assets/profile.jpg" />
+            <div class="card-stats">
+              <div><strong>Frontend</strong><span>React • JS • CSS</span></div>
+              <div><strong>Projects</strong><span>4+ completed</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none"><path fill="currentColor" d="M0,24 C360,96 1080,-32 1440,32 L1440 80 L0 80 Z"></path></svg>
+    </section>
+
+    <section id="projects" class="wrap section projects">
+      <h2 class="section-title">Selected Projects</h2>
+      <div class="grid large-cards">
+        <article class="card reveal">
+          <div class="card-body">
+            <h3>Portfolio Website — Live & Animated</h3>
+            <p>Animated responsive portfolio with typed headline, reveal animations and project pages.</p>
+            <p class="tags"><span>HTML</span><span>CSS</span><span>JS</span></p>
+          </div>
+          <div class="card-foot"><a class="link" href="https://github.com/CoderRohu/portfolio" target="_blank" rel="noopener">View code</a> · <a class="link" href="#" target="_blank" rel="noopener">Live demo</a></div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-body">
+            <h3>To-Do App</h3>
+            <p>CRUD, filters, due dates and LocalStorage persistence. Clean UI and offline-capable.</p>
+            <p class="tags"><span>Vanilla JS</span><span>LocalStorage</span></p>
+          </div>
+          <div class="card-foot"><a class="link" href="https://github.com/CoderRohu/todo-app" target="_blank" rel="noopener">View code</a> · <a class="link" href="https://coderrohu.github.io/todo-app/" target="_blank" rel="noopener">Live demo</a></div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-body">
+            <h3>Weather App</h3>
+            <p>OpenWeather API integration with geolocation, icons and graceful errors.</p>
+            <p class="tags"><span>API</span><span>Fetch</span></p>
+          </div>
+          <div class="card-foot"><a class="link" href="https://github.com/CoderRohu/weather-app" target="_blank" rel="noopener">View code</a> <a class="link" href="https://coderrohu.github.io/weather-app/" target="_blank">Live demo</a></div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-body">
+            <h3>Simple Blog</h3>
+            <p>Frontend-only blog using React via CDN, tags, search and LocalStorage persistence.</p>
+            <p class="tags"><span>React</span><span>LocalStorage</span></p>
+          </div>
+          <div class="card-foot"><a class="link" href="https://github.com/CoderRohu/blog-frontend" target="_blank" rel="noopener">View code</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="wrap section about reveal">
+      <h2 class="section-title">About me</h2>
+      <div class="two-col">
+        <div>
+          <p>I am a final-year B.Tech student focused on frontend development. I enjoy turning designs into accessible, responsive interfaces and learning modern web patterns.</p>
+          <ul class="feature-list">
+            <li>Open to internships & junior frontend roles</li>
+            <li>Strong foundation in JS, React, and responsive CSS</li>
+            <li>Comfortable with Git, REST APIs and basic backend integration</li>
+          </ul>
+        </div>
+        <div class="highlights">
+          <h4>Highlights</h4>
+          <ul>
+            <li>CSIR Intern — Nov 2024 to Feb 2025</li>
+            <li>Selected for college project showcase — 2025</li>
+            <li>HackerRank & GitHub activity</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="wrap section skills reveal">
+      <h2 class="section-title">Skills</h2>
+      <div class="skill-grid">
+        <div class="skill">
+          <label>HTML</label>
+          <div class="bar"><span data-width="90%"></span></div>
+        </div>
+        <div class="skill">
+          <label>CSS / Animations</label>
+          <div class="bar"><span data-width="85%"></span></div>
+        </div>
+        <div class="skill">
+          <label>JavaScript</label>
+          <div class="bar"><span data-width="80%"></span></div>
+        </div>
+        <div class="skill">
+          <label>React</label>
+          <div class="bar"><span data-width="70%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap section contact reveal">
+      <h2 class="section-title">Contact</h2>
+      <form id="contact-form" class="contact-form" action="#" onsubmit="return false;">
+        <label><span>Name</span><input id="cname" required></label>
+        <label><span>Email</span><input id="cemail" type="email" required></label>
+        <label><span>Message</span><textarea id="cmsg" rows="4" required></textarea></label>
+        <p><button class="btn">Send message</button></p>
+      </form>
+      <div class="contact-bottom">
+        <p>Email: <a href="mailto:rohangouda348@gmail.com">rohangouda348@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/CoderRohu" target="_blank">github.com/CoderRohu</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© <span id="year"></span> Rohan Gouda — Frontend Developer</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
